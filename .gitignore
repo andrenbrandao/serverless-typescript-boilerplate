@@ -7,3 +7,6 @@ jspm_packages
 
 # Webpack directories
 .webpack
+
+# Yarn
+yarn-error.log
