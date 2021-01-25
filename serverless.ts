@@ -10,8 +10,13 @@ const serverlessConfiguration: AWS = {
       webpackConfig: './webpack.config.js',
       includeModules: true,
     },
+    stages: ['dev', 'qa', 'prod'],
   },
-  plugins: ['serverless-webpack', 'serverless-offline'],
+  plugins: [
+    'serverless-webpack',
+    'serverless-offline',
+    'serverless-stage-manager',
+  ],
   provider: {
     name: 'aws',
     runtime: 'nodejs12.x',

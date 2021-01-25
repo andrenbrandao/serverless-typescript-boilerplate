@@ -8186,6 +8186,11 @@ serverless-offline@^6.8.0:
     velocityjs "^2.0.0"
     ws "^7.2.1"
 
+serverless-stage-manager@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/serverless-stage-manager/-/serverless-stage-manager-1.0.5.tgz#28f9d8c1742d95044564e81ef06a19113f1e064d"
+  integrity sha1-KPnYwXQtlQRFZOge8GoZET8eBk0=
+
 serverless-webpack@^5.2.0:
   version "5.3.5"
   resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.3.5.tgz#3148433752893e9a91c6101dda78718a414e182e"
