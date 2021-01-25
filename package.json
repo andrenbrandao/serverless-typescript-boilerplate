@@ -1,5 +1,5 @@
 {
-  "name": "sls-api",
+  "name": "serverless-typescript",
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
