@@ -8,7 +8,8 @@
     "removeComments": true,
     "sourceMap": true,
     "target": "ESNext",
-    "outDir": "lib"
+    "outDir": "lib",
+    "esModuleInterop": true
   },
   "include": ["src/**/*.ts"],
   "exclude": [

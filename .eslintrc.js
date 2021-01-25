@@ -6,11 +6,11 @@ module.exports = {
   extends: [
     'airbnb-base',
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
@@ -22,6 +22,7 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
+    'prettier/prettier': 'error',
   },
   settings: {
     'import/resolver': {
