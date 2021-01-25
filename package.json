@@ -4,10 +4,11 @@
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
   "scripts": {
-    "lint": "eslint '*/**/*.{js,ts}'",
-    "prettier": "prettier --write '*/**/*.{js,ts}'",
+    "start": "serverless offline --httpPort=4000",
     "test": "jest --passWithNoTests",
-    "test:watch": "jest --watch --coverage"
+    "test:watch": "jest --watch --coverage",
+    "lint": "eslint '*/**/*.{js,ts}'",
+    "prettier": "prettier --write '*/**/*.{js,ts}'"
   },
   "dependencies": {
     "@middy/core": "^1.5.0",
@@ -37,6 +38,7 @@
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "serverless": "^2.16.0",
+    "serverless-offline": "^6.8.0",
     "serverless-webpack": "^5.2.0",
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.10",
