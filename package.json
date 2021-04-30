@@ -5,7 +5,7 @@
   "main": "serverless.ts",
   "scripts": {
     "start": "serverless offline --httpPort=4000",
-    "deploy": "serverless deploy --aws-profile personal",
+    "deploy": "serverless deploy --aws-profile personal --stage dev",
     "deploy:qa": "serverless deploy --aws-profile personal --stage qa",
     "deploy:production": "serverless deploy --aws-profile personal --stage prod",
     "test": "jest --passWithNoTests",
