@@ -13,3 +13,7 @@ yarn-error.log
 
 # Coverage
 coverage
+
+# Dotenv
+!.env.example
+.env*

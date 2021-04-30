@@ -5,6 +5,7 @@ import { hello } from './src/functions';
 const serverlessConfiguration: AWS = {
   service: 'serverless-typescript',
   frameworkVersion: '2',
+  useDotenv: true,
   custom: {
     webpack: {
       webpackConfig: './webpack.config.js',
