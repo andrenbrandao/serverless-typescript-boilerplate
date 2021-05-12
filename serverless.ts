@@ -17,6 +17,7 @@ const serverlessConfiguration: AWS = {
     'serverless-webpack',
     'serverless-offline',
     'serverless-stage-manager',
+    'serverless-prune-plugin',
   ],
   provider: {
     name: 'aws',
