@@ -11,7 +11,7 @@ const serverlessConfiguration: AWS = {
       webpackConfig: './webpack.config.js',
       includeModules: true,
     },
-    stages: ['dev', 'qa', 'prod'],
+    stages: ['staging', 'production'],
   },
   plugins: [
     'serverless-webpack',

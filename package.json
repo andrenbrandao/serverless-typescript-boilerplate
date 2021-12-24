@@ -1,13 +1,12 @@
 {
-  "name": "serverless-typescript",
+  "name": "serverless-typescript-boilerplate",
   "version": "1.0.0",
-  "description": "Serverless aws-nodejs-typescript template",
+  "description": "Serverless aws-nodejs-typescript boilerplate",
   "main": "serverless.ts",
   "scripts": {
     "start": "serverless offline --httpPort=4000",
-    "deploy": "serverless deploy --aws-profile personal --stage dev",
-    "deploy:qa": "serverless deploy --aws-profile personal --stage qa",
-    "deploy:production": "serverless deploy --aws-profile personal --stage prod",
+    "deploy:staging": "serverless deploy --aws-profile personal --stage staging",
+    "deploy:production": "serverless deploy --aws-profile personal --stage production",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch --coverage",
     "lint": "eslint '*/**/*.{js,ts}'",
@@ -53,6 +52,6 @@
     "webpack": "^5.4.0",
     "webpack-node-externals": "^2.5.2"
   },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "author": "André Brandão",
   "license": "MIT"
 }
