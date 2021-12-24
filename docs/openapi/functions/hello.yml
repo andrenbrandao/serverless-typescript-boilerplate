@@ -1,0 +1,13 @@
+paths:
+  get:
+    summary: 'Hello'
+    description: 'Hello docs example'
+    responses:
+      200:
+        description: 'Successfully request'
+      400:
+        description: 'Client provided invalid data'
+      401:
+        description: 'Client provided either nonexistent or wrong credentials'
+      500:
+        description: 'Internal Server Error'

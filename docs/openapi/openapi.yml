@@ -1,0 +1,10 @@
+openapi: 3.0.0
+info:
+  title: 'Serverless TypeScript Boilerplate'
+  description: "Change this description."
+  version: 1.0.0
+
+paths:
+  /hello:
+    $ref: './functions/hello.yml#/paths'
+
