@@ -10,6 +10,7 @@ const serverlessConfiguration: AWS = {
     webpack: {
       webpackConfig: './webpack.config.js',
       includeModules: true,
+      packager: 'yarn',
     },
     stages: ['staging', 'production'],
   },
