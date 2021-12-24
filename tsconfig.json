@@ -2,7 +2,7 @@
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "lib": [
-      "es2017"
+      "ESNext"
     ],
     "moduleResolution": "node",
     "noUnusedLocals": true,
