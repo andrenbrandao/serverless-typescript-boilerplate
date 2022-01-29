@@ -9,6 +9,6 @@ export default {
   testEnvironment: 'node',
   testMatch: ['**/*.spec.ts'],
   moduleNameMapper: {
-    '@libs/(.*)': '<rootDir>/src/libs/$1',
+    '@/(.*)': '<rootDir>/src/$1',
   },
 };
