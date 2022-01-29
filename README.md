@@ -4,6 +4,15 @@ This project has been generated using the `aws-nodejs-typescript` template from 
 
 For detailed instructions, please refer to the [documentation](https://www.serverless.com/framework/docs/providers/aws/).
 
+Some personal modifications are:
+
+- Git hooks with [Husky](https://typicode.github.io/husky/), running ESLint, Prettier and Tests on every commit.
+- Created a directory for Architecture Decision Records, as [described by Michael Nygard](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions).
+- Open API documentation with [redoc-cli](https://github.com/Redocly/redoc).
+- Canary Deployments with [serverless-plugin-canary-deployments](https://github.com/davidgf/serverless-plugin-canary-deployments).
+- CloudWatch Alerts with [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts).
+- Prune of Old Lambda Versions with [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin).
+
 ## Installation/deployment instructions
 
 - Run `yarn` to install the project dependencies
@@ -23,8 +32,7 @@ This template contains a single lambda function triggered by an HTTP request mad
 
 In order to test the hello function locally, run the following command:
 
-- `npx sls invoke local -f hello --path src/functions/hello/mock.json` if you're using NPM
-- `yarn sls invoke local -f hello --path src/functions/hello/mock.json` if you're using Yarn
+- `yarn sls invoke local -f hello --path src/functions/hello/mock.json`
 
 Check the [sls invoke local command documentation](https://www.serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/) for more information.
 
