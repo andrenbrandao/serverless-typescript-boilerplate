@@ -53,7 +53,7 @@ const serverlessConfiguration: AWS = {
     'serverless-stage-manager',
     'serverless-prune-plugin',
     'serverless-plugin-aws-alerts',
-    'serverless-plugin-canary-deployments',
+    'serverless-plugin-canary-deployments', // Remove this if you want to disable Canary Deployments
   ],
   provider: {
     name: 'aws',

@@ -15,6 +15,7 @@ export default {
       },
     },
   ],
+  // Remove this if you want to disable Canary Deployments
   deploymentSettings: {
     type: 'Linear10PercentEvery1Minute',
     alias: 'Live',
