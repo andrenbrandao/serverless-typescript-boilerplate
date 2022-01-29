@@ -6,15 +6,6 @@ For detailed instructions, please refer to the [documentation](https://www.serve
 
 ## Installation/deployment instructions
 
-Depending on your preferred package manager, follow the instructions below to deploy your project.
-
-### Using NPM
-
-- Run `npm i` to install the project dependencies
-- Run `npx sls deploy` to deploy this stack to AWS
-
-### Using Yarn
-
 - Run `yarn` to install the project dependencies
 - Run `yarn sls deploy` to deploy this stack to AWS
 
@@ -84,3 +75,7 @@ The project code base is mainly located within the `src` folder. This folder is 
 - [json-schema-to-ts](https://github.com/ThomasAribart/json-schema-to-ts) - uses JSON-Schema definitions used by API Gateway for HTTP request validation to statically generate TypeScript types in your lambda's handler code base
 - [middy](https://github.com/middyjs/middy) - middleware engine for Node.Js lambda. This template uses [http-json-body-parser](https://github.com/middyjs/middy/tree/master/packages/http-json-body-parser) to convert API Gateway `event.body` property, originally passed as a stringified JSON, to its corresponding parsed object
 - [@serverless/typescript](https://github.com/serverless/typescript) - provides up-to-date TypeScript definitions for your `serverless.ts` service file
+- [redoc-cli](https://github.com/Redocly/redoc) - provides a tool to configure and write our documentation using [OpenAPI Specification](https://swagger.io/specification).
+- [serverless-prune-plugin](https://github.com/claygregory/serverless-prune-plugin) - prunes old lambda versions.
+- [serverless-plugin-aws-alerts](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) - creates alerts automatically in CloudWatch.
+- [serverless-plugin-canary-deployments](https://github.com/davidgf/serverless-plugin-canary-deployments) - implement canary deployments of Lambda functions with AWS CodeDeploy.
