@@ -13,6 +13,7 @@ const serverlessConfiguration: AWS = {
       includeModules: true,
       packager: 'yarn',
     },
+    stage: '${opt:stage, self:provider.stage}',
     stages: ['staging', 'production'],
     prune: {
       automatic: true,
