@@ -42,7 +42,7 @@
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
     "redoc-cli": "^0.13.2",
-    "serverless": "^2.16.0",
+    "serverless": "^2.68.0",
     "serverless-offline": "^6.8.0",
     "serverless-plugin-aws-alerts": "^1.7.4",
     "serverless-plugin-canary-deployments": "^0.7.1",
