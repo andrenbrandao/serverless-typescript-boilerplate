@@ -30,11 +30,11 @@ const serverlessConfiguration: AWS = {
           dimensions: [
             {
               Name: 'ApiName',
-              Value: '${self:service}-${self:provider.stage}',
+              Value: '${self:service}-${self:custom.stage}',
             },
             {
               Name: 'Stage',
-              Value: '${self:provider.stage}',
+              Value: '${self:custom.stage}',
             },
           ],
           threshold: 5,
