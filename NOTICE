@@ -1,0 +1,2 @@
+This project was copied from https://github.com/andrenbrandao/serverless-typescript-boilerplate. 
+serverless-typescript-boilerplate is originally build on top of the serverless typescript template created by this command `serverless create --template aws-nodejs-typescript --path service-name`
