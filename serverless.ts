@@ -58,7 +58,7 @@ const serverlessConfiguration: AWS = {
   ],
   provider: {
     name: 'aws',
-    runtime: 'nodejs16.x',
+    runtime: 'nodejs14.x',
     iamRoleStatements: [
       {
         Effect: 'Allow',
